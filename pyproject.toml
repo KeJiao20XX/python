@@ -1,0 +1,19 @@
+[project]
+name = "python-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zkj20xx", email = "KJ1032461568@outlook.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+python-app = "python_app:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+[tool.fastapi]
+entrypoint = 'main:app'
