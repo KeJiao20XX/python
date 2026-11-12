@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 .env
 .vscode/
+# 本地 git 备份（勿提交）
+.git_backup_*
